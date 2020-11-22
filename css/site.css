@@ -1,0 +1,27 @@
+h1 {
+    color: white; 
+
+}
+
+.MainContent {
+    background-color: #ffe9f4;
+    display: flex; 
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.MainContent-header {
+    background-color: rgb(100, 4, 100);
+    text-align: center; 
+
+}
+
+.MainContent-bar {
+    width:60%;
+    max-width:700px;
+    height:200px;
+    margin:70px;
+    
+
+}
