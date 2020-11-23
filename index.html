@@ -10,9 +10,21 @@
     <div class="MainContent-header">
         <h1>Currency Exchange Rate Chart</h1>
     </div>
-
-    <div class="MainContent-bar" style="height: 88.5%">EUR</div>
-    <div class="MainContent-bar" style="height: 75.5%">USD</div>
-    <div class="MainContent-bar" style="height: 55.9%">AUD</div>
+    <div class="MainContent-bar" style="height:100px">
+        <div onClick="EUR()" class="bar1" style="height: 88.5%">EUR</div>
+        <div onClick="USD()" class="bar2" style="height: 75.5%">USD</div>
+        <div onClick="AUD()" class="bar3" style="height: 55.9%">AUD</div>
+    </div>
 
 </div>
+
+<script>
+
+function EUR() {
+    console.log('isthisworking')
+    alert('some shit about euro'); 
+
+}
+
+
+</script>

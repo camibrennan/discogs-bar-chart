@@ -9,22 +9,53 @@ h1 {
     flex-direction: column;
     min-height: 100vh;
 
+
 }
 
 .MainContent-header {
+    height: 20%; 
+    width: auto;  
     background-color: rgb(100, 4, 100);
     text-align: center; 
 
 }
 
 .MainContent-bar {
+    display: flex; 
+    justify-content: center;
+    flex-direction: row;
     font-family: 'Pacifico', cursive;
-    background-color: white; 
+    text-align: center; 
     color:  rgb(100, 4, 100);
-    width:60%;
-    max-width:700px;
-    height:200px;
-    margin:20px;
-    
 
 }
+
+.bar1 { 
+    border: 2px;
+    background-color: rgb(55, 243, 187);
+    width: 20%; 
+}
+
+.bar2 {
+    background-color: rgb(144, 207, 248);
+    width: 20%; 
+}
+
+
+.bar3 {
+    background-color: rgb(253, 255, 157);
+    width: 20%; 
+    transition-duration: 5s;
+}
+
+.bar1:hover {
+    background: url('../img/catroomguardian.jpeg'); 
+  }
+
+.bar2:hover {
+    background: url('../img/catroomguardian.jpeg'); 
+  }
+
+.bar3:hover {
+    background: url('../img/catroomguardian.jpeg'); 
+  }
