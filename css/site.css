@@ -1,6 +1,6 @@
 h1 {
-    color: white; 
-
+    color:#ffe9f4;
+    font-family: 'Pacifico', cursive;
 }
 
 .MainContent {
@@ -18,10 +18,13 @@ h1 {
 }
 
 .MainContent-bar {
+    font-family: 'Pacifico', cursive;
+    background-color: white; 
+    color:  rgb(100, 4, 100);
     width:60%;
     max-width:700px;
     height:200px;
-    margin:70px;
+    margin:20px;
     
 
 }
