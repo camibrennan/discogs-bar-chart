@@ -1,6 +1,7 @@
 h1 {
     color:#ffe9f4;
     font-family: 'Pacifico', cursive;
+    font-size: 50px;
 }
 
 .MainContent {
@@ -27,39 +28,79 @@ h1 {
     align-items: flex-end;
     flex-direction: row;
     font-family: 'Pacifico', cursive;
+    font-size: 20px; 
     text-align: center; 
     color:  rgb(100, 4, 100);
 
 }
 
 .bar1 { 
-    border: 2px;
     background-color: rgb(55, 243, 187);
     width: 20%;  
+    transition-duration: .05s;
+    margin-left: 10%;
 }
 
 .bar2 {
     background-color: rgb(144, 207, 248);
     width: 20%; 
+    margin-left: 2%;
+    transition-duration: .05s;
 }
 
 
 .bar3 {
     background-color: rgb(253, 255, 157);
     width: 20%; 
-    transition-duration: 5s;
+    margin-left: 2%;
+    transition-duration: .05s;
+    
+}
+
+.bar4 {
+    background-color: rgb(55, 243, 187));
+    width: 20%; 
+    margin-left: 2%;
+    transition-duration: .05s;
+    
+}
+.bar5 {
+    background-color: rgb(144, 207, 248);
+    width: 20%; 
+    margin-left: 2%;
+    transition-duration: .05s;
+    
+}
+.bar6 {
+    background-color: rgb(253, 255, 157);
+    width: 20%; 
+    margin-left: 2%;
+    transition-duration: .05s;
+    
+}
+.bar7 {
+    background-color:rgb(55, 243, 187));
+    width: 20%; 
+    margin-left: 2%;
+    transition-duration: .05s;
+    margin-right: 10%;
+    
 }
 
 .bar1:hover {
-    background: url('../img/little.jpg'); 
+    background: url('../img/catroomguardian.jpeg');
 
   }
 
 .bar2:hover {
     background: url('../img/panda.jpeg'); 
+
     
   }
 
 .bar3:hover {
     background: url('../img/bunny.jpg'); 
+    background: center; 
+
+    
   }
