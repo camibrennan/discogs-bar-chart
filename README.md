@@ -1,1 +1,1 @@
-# currency-exchange-rate-chart
+a bar chart showing my discogs collection by record label 
