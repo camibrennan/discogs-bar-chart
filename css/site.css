@@ -10,7 +10,6 @@ h1 {
     flex-direction: column;
     min-height: 100vh;
 
-
 }
 
 .MainContent-header {
@@ -58,7 +57,7 @@ h1 {
 }
 
 .bar4 {
-    background-color: rgb(55, 243, 187));
+    background-color: rgb(55, 243, 187);
     width: 20%; 
     margin-left: 2%;
     transition-duration: .05s;
@@ -79,28 +78,44 @@ h1 {
     
 }
 .bar7 {
-    background-color:rgb(55, 243, 187));
+    background-color:rgb(55, 243, 187);
     width: 20%; 
     margin-left: 2%;
     transition-duration: .05s;
     margin-right: 10%;
+    transition: 0.3s;
     
 }
 
 .bar1:hover {
-    background: url('../img/catroomguardian.jpeg');
+    background: url('../img/records.jpg');
 
   }
 
 .bar2:hover {
-    background: url('../img/panda.jpeg'); 
+    background: url('../img/records.jpg');
 
-    
   }
 
 .bar3:hover {
-    background: url('../img/bunny.jpg'); 
-    background: center; 
+    background: url('../img/records.jpg');
 
-    
   }
+
+.bar4:hover {
+    background: url('../img/records.jpg');
+  }
+
+.bar5:hover {
+    background: url('../img/records.jpg');
+  }
+
+.bar6:hover {
+    background: url('../img/records.jpg');
+  }
+
+.bar7:hover {
+    background: url('../img/records.jpg');
+
+  }
+
