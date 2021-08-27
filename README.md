@@ -1,1 +1,1 @@
-Here is a bar chart showing my discogs collection by record label.
+A bar chart showing my discogs collection by record label.
